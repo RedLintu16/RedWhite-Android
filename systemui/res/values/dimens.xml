@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flat rectangular UI -->
+    <dimen name="notification_divider_height">0dp</dimen>
+    <dimen name="volume_dialog_slider_corner_radius">0dp</dimen>
+    <dimen name="volume_dialog_track_corner_radius">0dp</dimen>
+</resources>

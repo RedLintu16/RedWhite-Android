@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "RedWhiteThemeQSOverlay",
+    theme: "RedWhiteThemeQS",
+    product_specific: true,
+    sdk_version: "current",
+}

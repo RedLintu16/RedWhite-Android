@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "RedWhiteThemeAndroidOverlay",
+    theme: "RedWhiteThemeAndroidRedWhite",
+    product_specific: true,
+}

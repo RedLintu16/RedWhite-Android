@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active (toggled on) -->
+    <item android:state_checked="true">
+        <ripple android:color="#44FF0000">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF0000" />
+                    <corners android:radius="@*android:dimen/config_dialogCornerRadius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+    <!-- Inactive (off) -->
+    <item>
+        <ripple android:color="#22FF0000">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFFFF" />
+                    <stroke android:width="2dp" android:color="#FF0000" />
+                    <corners android:radius="@*android:dimen/config_dialogCornerRadius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

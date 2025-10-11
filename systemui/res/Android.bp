@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "RedWhiteThemeSystemUIOverlay",
+    theme: "RedWhiteThemeSystemUI",
+    product_specific: true,
+}

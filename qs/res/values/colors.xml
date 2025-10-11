@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qs_red">#FF0000</color>
+    <color name="qs_white">#FFFFFFFF</color>
+    <color name="qs_ripple_red_light">#22FF0000</color>
+</resources>

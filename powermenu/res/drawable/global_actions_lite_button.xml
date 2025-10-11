@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active (pressed or on) -->
+    <item android:state_pressed="true">
+        <ripple android:color="#55FF0000">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF0000" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+    <!-- Default (off) -->
+    <item>
+        <ripple android:color="#22FF0000">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFFFF" />
+                    <stroke android:width="2dp" android:color="#FF0000" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

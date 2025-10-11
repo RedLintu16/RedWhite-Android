@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Match white/red scheme in dark mode for uniformity -->
+    <color name="notification_divider_color">#00FFFFFF</color>
+    <color name="system_accent1_400">#FFCC0000</color>
+    <color name="system_background">#FFFFFFFF</color>
+</resources>

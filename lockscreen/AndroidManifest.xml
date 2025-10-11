@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.redlintu.theme.redwhite.powermenu.lockscreen"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:targetPackage="com.android.systemui"
+        android:category="android.theme.customization.powermenu"
+        android:priority="1" />
+
+    <application
+        android:label="RedWhite LockScreen Power Menu"
+        android:hasCode="false"
+        android:allowBackup="false" />
+</manifest>
