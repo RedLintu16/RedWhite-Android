@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,0A54,54 0 1,1 0,54A54,54 0 0,1 54,0z"/>
+    <!-- Red speaker cone -->
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M38,38h8l12,-10v52l-12,-10h-8z"/>
+    <!-- Red sound waves -->
+    <path
+        android:strokeColor="#D50000"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M64,44c4,4 4,16 0,20"/>
+    <path
+        android:strokeColor="#D50000"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M72,36c6,6 6,28 0,34"/>
+</vector>
