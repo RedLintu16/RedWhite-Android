@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "ForceLightModeOverlay",
+    manifest: "AndroidManifest.xml",
+    resource_dirs: ["res"],
+    product_specific: true,
+}

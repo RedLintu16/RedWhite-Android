@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main theme colors -->
+    <color name="suw_color_accent">#E50914</color> <!-- Red accent -->
+    <color name="suw_color_primary">#E50914</color>
+    <color name="suw_color_primary_dark">#B20710</color>
+    <color name="suw_color_background">#FFFFFF</color>
+    <color name="suw_color_text_primary">#000000</color>
+    <color name="suw_color_text_secondary">#444444</color>
+
+    <!-- Dark mode -->
+    <color name="suw_color_background_dark">#000000</color>
+    <color name="suw_color_text_primary_dark">#FFFFFF</color>
+    <color name="suw_color_text_secondary_dark">#CCCCCC</color>
+
+    <!-- Buttons -->
+    <color name="suw_button_background_color">#E50914</color>
+    <color name="suw_button_text_color">#FFFFFF</color>
+
+    <!-- Progress bar -->
+    <color name="suw_progress_bar_color">#E50914</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Force system-wide light theme -->
+    <bool name="config_forceDefaultUiMode">true</bool>
+    <integer name="config_defaultUiMode">1</integer> <!-- 1 = Light, 2 = Dark -->
+    <bool name="config_defaultNightMode">false</bool>
+
+    <!-- Prevent auto-dark or battery saver darkening -->
+    <bool name="config_enableAutomaticUiMode">false</bool>
+    <bool name="config_nightModeEnabled">false</bool>
+
+    <!-- Optional: enforce light QS / notifications -->
+    <bool name="config_lightBarModeEnabled">true</bool>
+</resources>

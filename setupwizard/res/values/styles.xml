@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base light theme -->
+    <style name="SuwThemeClassic.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorBackground">@color/suw_color_background</item>
+        <item name="android:textColorPrimary">@color/suw_color_text_primary</item>
+        <item name="android:textColorSecondary">@color/suw_color_text_secondary</item>
+        <item name="android:colorAccent">@color/suw_color_accent</item>
+        <item name="android:buttonStyle">@style/SuwButtonStyle</item>
+        <item name="android:progressBarStyle">@style/SuwProgressBarStyle</item>
+    </style>
+
+    <!-- Base dark theme -->
+    <style name="SuwThemeClassic.Dark" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@color/suw_color_background_dark</item>
+        <item name="android:textColorPrimary">@color/suw_color_text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/suw_color_text_secondary_dark</item>
+        <item name="android:colorAccent">@color/suw_color_accent</item>
+        <item name="android:buttonStyle">@style/SuwButtonStyle</item>
+        <item name="android:progressBarStyle">@style/SuwProgressBarStyle</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="SuwButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/suw_button_background_color</item>
+        <item name="android:textColor">@color/suw_button_text_color</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Progress bar style -->
+    <style name="SuwProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/suw_progress_bar_color</item>
+        <item name="android:minHeight">6dp</item>
+        <item name="android:maxHeight">6dp</item>
+    </style>
+
+</resources>

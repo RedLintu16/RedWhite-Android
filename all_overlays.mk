@@ -9,4 +9,11 @@ RedWhiteThemeProgressBarOverlay \
 RedWhiteThemeQSOverlay \
 RedWhiteThemeSettingsOverlay \
 RedWhiteThemeSystemUIOverlay \
-RedWhiteVolumeOverlay
+RedWhiteVolumeOverlay \
+RedWhiteSetupWizard \
+ForceLightModeOverlay
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.theme.font=FontRaleway \
+	com.android.internal.systemui.navbar.threebutton
+
