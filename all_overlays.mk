@@ -11,7 +11,8 @@ RedWhiteThemeSettingsOverlay \
 RedWhiteThemeSystemUIOverlay \
 RedWhiteVolumeOverlay \
 RedWhiteSetupWizard \
-ForceLightModeOverlay
+ForceLightModeOverlay \
+fonts_customization.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.theme.font=FontRaleway \

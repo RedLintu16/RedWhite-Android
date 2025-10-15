@@ -28,6 +28,6 @@
             android:textColor="@color/global_action_card_tint"
             android:text="@string/global_action_power_off"
             android:textSize="14sp"
-            android:fontFamily="@*android:font/raleway-medium"/>
+            android:fontFamily="@font/Raleway-Medium"/>
     </LinearLayout>
 </FrameLayout>
