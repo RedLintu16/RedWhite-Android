@@ -1,12 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.redlintu.theme.redwhite.android"
-    android:allowBackup="false"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:targetPackage="android"
-        android:category="android.theme.customization.style.android"
-        android:priority="1"/>
-    <application android:label="RedWhite"
+
+    <overlay
+        android:targetPackage="android"
+        android:isStatic="true"
+        android:priority="1"
+        android:category="android.theme.customization.system" />
+
+    <application
+        android:label="RedWhite"
         android:hasCode="false"
-        android:icon="@mipmap/ic_launcher"/>
+        android:icon="@mipmap/ic_launcher" />
 </manifest>

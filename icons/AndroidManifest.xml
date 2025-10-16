@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.redlintu.theme.redwhite.icons"
     android:versionCode="1"
-    android:versionName="1.0"
-    android:allowBackup="false">
+    android:versionName="1.0">
 
     <overlay
-        android:targetPackage="com.android.systemui"
-        android:category="android.theme.customization.icon_pack"
-        android:priority="1" />
+        android:targetPackage="com.android.launcher3"
+        android:isStatic="true"
+        android:priority="1"
+        android:category="android.theme.customization.icon_pack" />
 
     <application
         android:label="RedWhite Icons"
