@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Override of default SetupWizard themes -->
-    <style name="SuwThemeClassic.Light" parent="@style/SuwThemeMaterial.Light">
+    <!-- Flat red/white SetupWizard look -->
+    <style name="SuwThemeClassic.Light">
         <item name="android:colorBackground">#FFFFFFFF</item>
         <item name="android:textColorPrimary">#FF000000</item>
         <item name="android:colorAccent">#FFD60000</item>
@@ -10,12 +9,11 @@
         <item name="android:colorButtonNormal">#FFD60000</item>
     </style>
 
-    <style name="SuwThemeClassic.Dark" parent="@style/SuwThemeMaterial.Light">
+    <style name="SuwThemeClassic.Dark">
         <item name="android:colorBackground">#FFFFFFFF</item>
         <item name="android:textColorPrimary">#FF000000</item>
         <item name="android:colorAccent">#FFD60000</item>
         <item name="android:colorControlActivated">#FFD60000</item>
         <item name="android:colorButtonNormal">#FFD60000</item>
     </style>
-
 </resources>
