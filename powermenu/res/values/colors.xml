@@ -3,5 +3,4 @@
     <color name="power_red">#FF0000</color>
     <color name="power_white">#FFFFFFFF</color>
     <color name="power_ripple">#33FF0000</color>
-    <color name="power_button_tint">#FF0000</color>
 </resources>
