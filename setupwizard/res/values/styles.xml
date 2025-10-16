@@ -10,11 +10,11 @@
         <item name="android:colorButtonNormal">#FFD60000</item>
     </style>
 
-    <!-- Light / Dark variants (same palette for flat look) -->
+    <!-- Light / Dark variants -->
     <style name="SuwThemeClassic.Light" parent="@style/SuwThemeClassic" />
     <style name="SuwThemeClassic.Dark" parent="@style/SuwThemeClassic" />
 
-    <!-- Glif themes forced to map to classic -->
+    <!-- Glif mapping (one definition each) -->
     <style name="SuwThemeGlifV3.Light" parent="@style/SuwThemeClassic.Light" />
     <style name="SuwThemeGlifV3.Dark" parent="@style/SuwThemeClassic.Dark" />
     <style name="SuwThemeGlifV4.Light" parent="@style/SuwThemeClassic.Light" />

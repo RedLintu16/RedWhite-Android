@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Force the classic theme mapping -->
-    <style name="SuwThemeGlifV3.Light" parent="@style/SuwThemeClassic.Light" />
-    <style name="SuwThemeGlifV3.Dark" parent="@style/SuwThemeClassic.Dark" />
-    <style name="SuwThemeGlifV4.Light" parent="@style/SuwThemeClassic.Light" />
-    <style name="SuwThemeGlifV4.Dark" parent="@style/SuwThemeClassic.Dark" />
-</resources>
