@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- RedWhite unified flat theme -->
-    <style name="Theme.RedWhite.Flat" parent="@android:style/Theme.DeviceDefault.Light">
-        <item name="android:colorBackground">@color/system_neutral1_0</item>
-        <item name="android:colorForeground">@color/system_accent1_500</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:colorAccent">@color/system_accent1_500</item>
-        <item name="android:colorControlActivated">@color/system_accent1_500</item>
-        <item name="android:colorButtonNormal">@color/system_accent1_500</item>
-        <item name="android:colorControlHighlight">@color/system_accent1_500</item>
-        <item name="android:statusBarColor">@color/system_neutral1_0</item>
-        <item name="android:navigationBarColor">@color/system_neutral1_0</item>
-        <item name="android:windowBackground">@color/system_neutral1_0</item>
-        <item name="android:buttonStyle">@style/Widget.RedWhite.Button</item>
-        <item name="android:progressBarStyle">@style/Widget.RedWhite.ProgressBar</item>
+    <!-- Override of default SetupWizard themes -->
+    <style name="SuwThemeClassic.Light" parent="@style/SuwThemeMaterial.Light">
+        <item name="android:colorBackground">#FFFFFFFF</item>
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:colorAccent">#FFD60000</item>
+        <item name="android:colorControlActivated">#FFD60000</item>
+        <item name="android:colorButtonNormal">#FFD60000</item>
     </style>
 
-    <style name="Widget.RedWhite.Button" parent="@android:style/Widget.Button">
-        <item name="android:background">@drawable/redwhite_button_flat</item>
-        <item name="android:textColor">#FFFFFFFF</item>
-    </style>
-
-    <style name="Widget.RedWhite.ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
-        <item name="android:progressDrawable">@drawable/redwhite_progress_horizontal</item>
+    <style name="SuwThemeClassic.Dark" parent="@style/SuwThemeMaterial.Light">
+        <item name="android:colorBackground">#FFFFFFFF</item>
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:colorAccent">#FFD60000</item>
+        <item name="android:colorControlActivated">#FFD60000</item>
+        <item name="android:colorButtonNormal">#FFD60000</item>
     </style>
 
 </resources>

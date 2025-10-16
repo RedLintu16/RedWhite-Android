@@ -1,11 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.redlintu.setupwizard.redwhite"
     android:versionCode="1"
     android:versionName="1.0">
 
+    <!-- Overlay for Google's SetupWizard -->
     <overlay
         android:targetPackage="com.google.android.setupwizard"
         android:isStatic="true"
         android:priority="1"
         android:category="android.theme.customization.setupwizard" />
+
+    <application
+        android:label="RedWhite SetupWizard"
+        android:hasCode="false"
+        android:allowBackup="false" />
 </manifest>
