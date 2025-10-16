@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original RedWhite spacing simplified -->
+    <dimen name="notification_corner_radius">4dp</dimen>
+    <dimen name="qs_tile_corner_radius">4dp</dimen>
+    <dimen name="qs_tile_icon_size">28dp</dimen>
+    <dimen name="volume_panel_corner_radius">4dp</dimen>
+    <dimen name="volume_panel_icon_size">24dp</dimen>
+    <dimen name="volume_panel_padding">8dp</dimen>
+</resources>

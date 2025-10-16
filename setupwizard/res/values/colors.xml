@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Main theme colors -->
-    <color name="suw_color_accent">#E50914</color> <!-- Red accent -->
-    <color name="suw_color_primary">#E50914</color>
-    <color name="suw_color_primary_dark">#B20710</color>
-    <color name="suw_color_background">#FFFFFF</color>
-    <color name="suw_color_text_primary">#000000</color>
-    <color name="suw_color_text_secondary">#444444</color>
+    <!-- Base palette -->
+    <color name="system_accent1_0">#FFD60000</color>
+    <color name="system_accent1_10">#FFD60000</color>
+    <color name="system_accent1_50">#FFD60000</color>
+    <color name="system_accent1_100">#FFD60000</color>
+    <color name="system_accent1_200">#FFD60000</color>
+    <color name="system_accent1_300">#FFD60000</color>
+    <color name="system_accent1_400">#FFD60000</color>
+    <color name="system_accent1_500">#FFD60000</color>
+    <color name="system_accent1_600">#FFD60000</color>
+    <color name="system_accent1_700">#FFD60000</color>
+    <color name="system_accent1_800">#FFD60000</color>
+    <color name="system_accent1_900">#FFD60000</color>
+    <color name="system_accent1_1000">#FFD60000</color>
 
-    <!-- Dark mode -->
-    <color name="suw_color_background_dark">#000000</color>
-    <color name="suw_color_text_primary_dark">#FFFFFF</color>
-    <color name="suw_color_text_secondary_dark">#CCCCCC</color>
+    <color name="system_neutral1_0">#FFFFFFFF</color>
+    <color name="system_neutral1_10">#FFFFFFFF</color>
+    <color name="system_neutral1_50">#FFFFFFFF</color>
+    <color name="system_neutral1_100">#FFFFFFFF</color>
+    <color name="system_neutral1_200">#FFFFFFFF</color>
+    <color name="system_neutral1_300">#FFFFFFFF</color>
+    <color name="system_neutral1_400">#FFFFFFFF</color>
+    <color name="system_neutral1_500">#FFFFFFFF</color>
+    <color name="system_neutral1_600">#FFFFFFFF</color>
+    <color name="system_neutral1_700">#FFFFFFFF</color>
+    <color name="system_neutral1_800">#FFFFFFFF</color>
+    <color name="system_neutral1_900">#FFFFFFFF</color>
+    <color name="system_neutral1_1000">#FFFFFFFF</color>
 
-    <!-- Buttons -->
-    <color name="suw_button_background_color">#E50914</color>
-    <color name="suw_button_text_color">#FFFFFF</color>
+    <color name="system_neutral2_0">#FFFFFFFF</color>
+    <color name="system_neutral2_10">#FFFFFFFF</color>
+    <color name="system_neutral2_50">#FFFFFFFF</color>
+    <color name="system_neutral2_100">#FFFFFFFF</color>
+    <color name="system_neutral2_200">#FFFFFFFF</color>
+    <color name="system_neutral2_300">#FFFFFFFF</color>
+    <color name="system_neutral2_400">#FFFFFFFF</color>
+    <color name="system_neutral2_500">#FFFFFFFF</color>
+    <color name="system_neutral2_600">#FFFFFFFF</color>
+    <color name="system_neutral2_700">#FFFFFFFF</color>
+    <color name="system_neutral2_800">#FFFFFFFF</color>
+    <color name="system_neutral2_900">#FFFFFFFF</color>
+    <color name="system_neutral2_1000">#FFFFFFFF</color>
 
-    <!-- Progress bar -->
-    <color name="suw_progress_bar_color">#E50914</color>
+    <color name="material_dynamic_neutral0">#FFFFFFFF</color>
+    <color name="material_dynamic_accent0">#FFD60000</color>
+    <color name="material_dynamic_primary0">#FFD60000</color>
+
+    <!-- Misc theme-specific -->
+    <color name="qs_tile_background">#FFF8F8F8</color>
+    <color name="qs_tile_icon_tint">#FFD60000</color>
+    <color name="volume_panel_background">#FFFFFFFF</color>
+    <color name="volume_panel_accent">#FFD60000</color>
 </resources>
